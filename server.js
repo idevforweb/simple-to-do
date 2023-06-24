@@ -11,7 +11,7 @@ let db;
 // Connect to DB
 async function go() {
   const connectLink =
-    "mongodb+srv://todoappuser:knb060315@cluster0.baubb.mongodb.net/TodoApp?retryWrites=true&w=majority";
+    "mongodb+srv://todoappuser:@cluster0.baubb.mongodb.net/TodoApp?retryWrites=true&w=majority";
   // Create mongo instaance client and connect using snippet
   const client = new MongoClient(connectLink);
   // Wait for connection to fully connect
